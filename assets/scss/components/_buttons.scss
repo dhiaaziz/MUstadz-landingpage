@@ -1,0 +1,61 @@
+.btn{
+  text-decoration: none;
+  // padding: 10px 6px;
+  border: 1px solid black;
+  border-radius: 6px;
+
+  //size
+  &.btn-sm{
+    padding: 1px 8px;
+  }
+  &.btn-md{
+    padding: 6px 16px;
+  }
+  &.btn-lg{
+    padding: 7px 20px;
+  }
+  &.btn-x-sm{
+    padding-right: 6px;
+    padding-left: 6px;
+  }
+  &.btn-x-md{
+    padding-right: 12px;
+    padding-left: 12px;
+  }
+  &.btn-x-lg{
+    padding-right: 18px;
+    padding-left: 18px;
+  }
+  &.btn-y-sm{
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+  &.btn-y-md{
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  &.btn-y-lg{
+    padding-top: 18px;
+    padding-bottom: 18px;
+  }
+
+  //thickness
+  &.border-thick-2{
+    border-width: 2px;
+  }
+
+}
+
+
+
+.btn-alt-green2{
+  color: $color-third!important;
+  border-color: $color-third;
+
+  &:hover{
+    background-color: $bg-color-green2;
+    color: $white!important;
+  }
+}
+
+// bt

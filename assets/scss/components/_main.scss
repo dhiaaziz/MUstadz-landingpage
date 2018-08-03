@@ -1,0 +1,92 @@
+body, html{
+  height: 100%;
+  color: $color-main;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container-mustad{
+  width: 100%;
+  padding: 0 3%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.section-main_landing{
+  // height: calc(000px - 10px);
+  @include height-calc-compatible("90% - 100px");
+  padding-top: $header-height;
+  font-family: 'Edmund-Free';
+  color: $color-white;
+  font-size: 1.75rem;
+
+  .container-mustad{
+    height: 100%;
+    width: auto;
+    @include disp-flex;
+    // flex-direction: column;
+    justify-content: space-between;
+    // align-items: baseline;
+
+    .main-left{
+      height: 100%;
+      width: auto;
+      flex: 1;
+      @include disp-flex;
+      align-items: center;
+      padding-left: 6%;
+    }
+    .main-right{
+      height: 100%;
+      flex: 1;
+      overflow: hidden;
+      // position: relative;
+      // display: table;
+
+      .container-img_phone{
+        // display: table-cell;
+        // vertical-align: middle;
+        position: relative;
+        max-height: 100%;
+        top: 5vh;
+
+
+        img.img_phone{
+          position: absolute;
+        }
+        #phone-depan{
+          // z-index:3;
+          margin-left:84px;
+          max-height: 500px;
+        }
+        #phone-belakang-1{
+          // z-index:2;
+          max-height: 450px;
+          margin-top: 32px;
+
+        }
+        #phone-belakang-2{
+          // z-index:1;
+          margin-left:200px;
+          max-height: 450px;
+          margin-top: 32px;
+
+        }
+
+      }
+    }
+  }
+}
+.section-h_90{
+  height: 90%;
+}
+
+.bg-main{
+  background-color: $bg-color-main;
+}
+.bg-secondary{
+  background-color: $bg-color-secondary;
+}
+
+.bg-green{
+  background-color: $bg-color-green;
+}
