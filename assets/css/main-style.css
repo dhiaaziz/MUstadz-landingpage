@@ -9,11 +9,17 @@
 /* line 1, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
 body, html {
   height: 100%;
-  color: #5C5C5C;
+  color: #5F5F5F;
   font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
 }
 
-/* line 7, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
+/* line 8, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
+p {
+  margin: 0.75em 0;
+}
+
+/* line 12, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
 .container-mustad {
   width: 100%;
   padding: 0 3%;
@@ -21,7 +27,7 @@ body, html {
   margin-left: auto;
 }
 
-/* line 14, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
+/* line 19, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
 .section-main_landing {
   /* Firefox */
   height: -moz-calc(90% - 100px);
@@ -32,12 +38,12 @@ body, html {
   /* Standard */
   height: calc(90% - 100px);
   padding-top: 72px;
-  font-family: 'Edmund-Free';
+  font-family: 'Edmund-Free', 'Open Sans', sans-serif;
   color: #ffffff;
   font-size: 1.75rem;
 }
 
-/* line 22, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
+/* line 27, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
 .section-main_landing .container-mustad {
   height: 100%;
   width: auto;
@@ -50,7 +56,7 @@ body, html {
   justify-content: space-between;
 }
 
-/* line 30, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
+/* line 35, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
 .section-main_landing .container-mustad .main-left {
   height: 100%;
   width: auto;
@@ -65,62 +71,85 @@ body, html {
   padding-left: 6%;
 }
 
-/* line 38, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
+/* line 43, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
 .section-main_landing .container-mustad .main-right {
   height: 100%;
   flex: 1;
   overflow: hidden;
 }
 
-/* line 45, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
+/* line 50, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
 .section-main_landing .container-mustad .main-right .container-img_phone {
   position: relative;
   max-height: 100%;
   top: 5vh;
 }
 
-/* line 53, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
+/* line 58, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
 .section-main_landing .container-mustad .main-right .container-img_phone img.img_phone {
   position: absolute;
 }
 
-/* line 56, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
+/* line 61, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
 .section-main_landing .container-mustad .main-right .container-img_phone #phone-depan {
   margin-left: 84px;
   max-height: 500px;
 }
 
-/* line 61, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
+/* line 66, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
 .section-main_landing .container-mustad .main-right .container-img_phone #phone-belakang-1 {
   max-height: 450px;
   margin-top: 32px;
 }
 
-/* line 67, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
+/* line 72, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
 .section-main_landing .container-mustad .main-right .container-img_phone #phone-belakang-2 {
   margin-left: 200px;
   max-height: 450px;
   margin-top: 32px;
 }
 
-/* line 79, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
+/* line 85, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
 .section-h_90 {
   height: 90%;
 }
 
-/* line 83, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
+/* line 89, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
+.section-h_auto {
+  height: auto;
+  padding: 2.5em 6%;
+}
+
+/* line 95, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
 .bg-main {
   background-color: #ffffff;
 }
 
-/* line 86, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
+/* line 98, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
 .bg-secondary {
   background-color: #F0F0F0;
 }
 
-/* line 90, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
+/* line 102, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
 .bg-green {
   background-color: #78C16B;
+}
+
+/* line 106, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
+.heading-main {
+  font-family: 'Hind', 'Open Sans', sans-serif;
+  margin-bottom: 2em;
+  font-weight: bolder;
+}
+
+/* line 112, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
+.heading-main {
+  color: #78C16B;
+}
+
+/* line 116, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
+.link-googleplay {
+  margin: 1em 0 !important;
 }
 
 /* line 1, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_buttons.scss */
@@ -250,7 +279,7 @@ body, html {
 
 /* line 36, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/layouts/_header.scss */
 #header .container-mustad a:visited {
-  color: #5C5C5C;
+  color: #5F5F5F;
 }
 
 /* line 39, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/layouts/_header.scss */
@@ -302,6 +331,11 @@ body, html {
 #header .container-mustad ul li {
   display: inline-block;
   list-style-type: none;
+}
+
+/* line 1, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/layouts/_footer.scss */
+#footer {
+  padding: 2.5em 6%;
 }
 
 /*# sourceMappingURL=../css/main-style.map */

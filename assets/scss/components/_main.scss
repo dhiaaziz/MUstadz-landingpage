@@ -2,6 +2,11 @@ body, html{
   height: 100%;
   color: $color-main;
   font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+p{
+  margin: 0.75em 0;
 }
 
 .container-mustad{
@@ -15,7 +20,7 @@ body, html{
   // height: calc(000px - 10px);
   @include height-calc-compatible("90% - 100px");
   padding-top: $header-height;
-  font-family: 'Edmund-Free';
+  font-family: 'Edmund-Free', 'Open Sans', sans-serif;
   color: $color-white;
   font-size: 1.75rem;
 
@@ -76,9 +81,16 @@ body, html{
     }
   }
 }
+
 .section-h_90{
   height: 90%;
 }
+
+.section-h_auto{
+  height: auto;
+  padding: 2.5em 6%;
+}
+
 
 .bg-main{
   background-color: $bg-color-main;
@@ -89,4 +101,18 @@ body, html{
 
 .bg-green{
   background-color: $bg-color-green;
+}
+
+.heading-main{
+  font-family: 'Hind', 'Open Sans', sans-serif;
+  margin-bottom: 2em;
+  font-weight: bolder;
+}
+
+.heading-main{
+  color: $custom-green;
+}
+
+.link-googleplay{
+  margin: 1em 0 !important;
 }
