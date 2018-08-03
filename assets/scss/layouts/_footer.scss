@@ -1,4 +1,29 @@
 #footer{
-  padding: 2.5em 6%;
-  
+  position: relative;
+  overflow: hidden;
+  .container-mustad{
+    padding: 2.5em 9%;
+
+  }
+  p.first-par{
+    margin-top: 0;
+  }
+
+  #decor-circle-1, #decor-circle-2{
+    position: absolute;
+    height: 568px;
+    width: 568px;
+    background-color: $bg-color-green;
+    opacity:0.85;
+    border-radius: 50%;
+    // right: 0;
+  }
+  #decor-circle-1{
+    right: -5%;
+    bottom: -100%;
+  }
+  #decor-circle-2{
+    right: -24%;
+    top: 0;
+  }
 }

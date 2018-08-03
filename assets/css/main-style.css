@@ -138,7 +138,7 @@ p {
 /* line 106, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
 .heading-main {
   font-family: 'Hind', 'Open Sans', sans-serif;
-  margin-bottom: 2em;
+  margin-bottom: 1.5em;
   font-weight: bolder;
 }
 
@@ -335,7 +335,40 @@ p {
 
 /* line 1, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/layouts/_footer.scss */
 #footer {
-  padding: 2.5em 6%;
+  position: relative;
+  overflow: hidden;
+}
+
+/* line 4, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/layouts/_footer.scss */
+#footer .container-mustad {
+  padding: 2.5em 9%;
+}
+
+/* line 8, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/layouts/_footer.scss */
+#footer p.first-par {
+  margin-top: 0;
+}
+
+/* line 12, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/layouts/_footer.scss */
+#footer #decor-circle-1, #footer #decor-circle-2 {
+  position: absolute;
+  height: 568px;
+  width: 568px;
+  background-color: #78C16B;
+  opacity: 0.85;
+  border-radius: 50%;
+}
+
+/* line 21, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/layouts/_footer.scss */
+#footer #decor-circle-1 {
+  right: -5%;
+  bottom: -100%;
+}
+
+/* line 25, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/layouts/_footer.scss */
+#footer #decor-circle-2 {
+  right: -24%;
+  top: 0;
 }
 
 /*# sourceMappingURL=../css/main-style.map */
