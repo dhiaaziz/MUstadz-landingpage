@@ -5,13 +5,14 @@ body, html{
   font-size: 16px;
 }
 
+
 p{
   margin: 0.75em 0;
   line-height: 1.5em;
 }
 
-img.box-shadow{
-  @include box-shadow(2);
+ul{
+  margin: 0;
 }
 .container-mustad{
   width: 100%;
@@ -22,7 +23,8 @@ img.box-shadow{
 
 .section-main_landing{
   // height: calc(000px - 10px);
-  @include height-calc-compatible("90% - 100px");
+  // @include height-calc-compatible("90% - 72px");
+  height: 90%;
   padding-top: $header-height;
   font-family: 'Edmund-Free', 'Open Sans', sans-serif;
   color: $color-white;
@@ -92,14 +94,14 @@ img.box-shadow{
 
 .section-h_auto{
   height: auto;
-  padding: 2.5em 6%;
+  padding: 3.15em 6%;
 }
 
 
 .bg-main{
   background-color: $bg-color-main;
 }
-.bg-secondary{
+.bg-mustadz-secondary{
   background-color: $bg-color-secondary;
 }
 
@@ -109,7 +111,8 @@ img.box-shadow{
 
 .heading-main{
   font-family: 'Hind', 'Open Sans', sans-serif;
-  margin-bottom: 1.5em;
+  margin-bottom: 1.35em;
+  font-size: 1.5em;
   font-weight: bolder;
 }
 
@@ -119,7 +122,8 @@ img.box-shadow{
 
 .subheading-main{
   font-family: 'Nunito', 'Open Sans', sans-serif;
-  font-size: 1.65em;
+  font-size: 1.75em;
+  margin-bottom: 1em;
   font-weight: 300;
 }
 
@@ -137,7 +141,23 @@ img.box-shadow{
     vertical-align: middle;
     margin-left: 0.5em;
   }
+  &:hover{
+    color: $color-secondary;
+    text-decoration: none;
+  }
 }
 .link-googleplay{
   margin: 1em 0 1em -1%;
+}
+
+.image-100w-container{
+  width: 100%;
+  img{
+    max-width: 100%;
+  }
+}
+
+
+img.box-shadow{
+  @include box-shadow(2);
 }
