@@ -15,6 +15,7 @@ ul{
   margin: 0;
 }
 .container-mustad{
+  position: relative;
   width: 100%;
   padding: 0 3%;
   margin-right: auto;
@@ -80,9 +81,7 @@ ul{
           margin-left:200px;
           max-height: 450px;
           margin-top: 32px;
-
         }
-
       }
     }
   }
@@ -111,9 +110,9 @@ ul{
 
 .heading-main{
   font-family: 'Hind', 'Open Sans', sans-serif;
-  margin-bottom: 1.35em;
+  margin-bottom: 1.5em;
   font-size: 1.5em;
-  font-weight: bolder;
+  font-weight: 600;
 }
 
 .heading-main{
@@ -145,6 +144,12 @@ ul{
     color: $color-secondary;
     text-decoration: none;
   }
+}
+
+.link-fitur{
+  position: absolute;
+  right: 3%;
+  font-size: 1.15em;
 }
 .link-googleplay{
   margin: 1em 0 1em -1%;

@@ -1,0 +1,30 @@
+.card-mustadz{
+  border-color: transparent;
+  border-radius: 8px;
+  @include box-shadow(3);
+  // width: 90%;
+  padding: 1.25em 1em;
+  // margin: 1em;
+  background-color: $bg-color-main;
+
+  text-align: center;
+  font-family: 'Hind', 'Open Sans', sans-serif;
+
+  .card-img-container{
+    max-width: 100;
+    margin: 1.25em 0 1.75em;
+    img{
+      max-height: 130px;
+    }
+  }
+}
+
+.heading-card{
+  color: $custom-green;
+  font-weight: 600;
+  font-size: 1.5em;
+}
+
+.flex-space-around{
+  justify-content: space-between;
+}

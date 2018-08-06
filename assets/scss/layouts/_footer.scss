@@ -1,9 +1,16 @@
 #footer{
   position: relative;
   overflow: hidden;
+  font-family: 'Hind', 'Open Sans', sans-serif;
+  font-weight: 400;
+  // font-size: 18px;
   .container-mustad{
     padding: 3.15em 9%;
 
+  }
+  p{
+    font-size: 18px;
+    line-height: 1;
   }
   p.first-par{
     margin-top: 0;
