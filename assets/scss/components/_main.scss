@@ -1,14 +1,18 @@
 body, html{
   height: 100%;
   color: $color-main;
-  font-family: arial, sans-serif;
+  // font-family: arial, sans-serif;
+  font-family: 'Hind', 'Open Sans', sans-serif;
   font-size: 16px;
 }
 
 
 p{
-  margin: 0.75em 0;
+  // margin: 0.75em 0;
   line-height: 1.5em;
+  &:last-child{
+    margin: 0;
+  }
 }
 
 ul{
@@ -87,13 +91,44 @@ ul{
   }
 }
 
+
 .section-h_90{
   height: 90%;
 }
-
+.section-h_40{
+  height: 40%;
+}
 .section-h_auto{
   height: auto;
-  padding: 3.15em 6%;
+}
+
+.section-h_auto, .section-h_40, .section-h_90{
+  padding: 2.85em 6%;
+  position: relative;
+
+  &.padding-top-header{
+    padding-top: $header-height;
+  }
+  &.background-section{
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 0;
+
+    .container-mustad{
+      padding: 0 9%;
+    }
+    .overlay{
+      top: 57%;
+      width: 100%;
+      position: absolute;
+      // position: absolute;
+      z-index: 1;
+      filter: brightness(100%);
+      h1, h2, h3, h4, h5, h6{
+        margin: 0;
+      }
+    }
+  }
 }
 
 
@@ -101,22 +136,44 @@ ul{
   background-color: $bg-color-main;
 }
 .bg-mustadz-secondary{
-  background-color: $bg-color-secondary;
+  background-color: $bg-color-secondary !important; 
+}
+
+.bg-image-1{
+  background-image: url("../img/home/background.jpg");
+  background-size:cover;
+  background-position: 50% 50%;
+  // height: 100%;
+  filter: brightness(40%);
+}
+
+.background{
+ //important for filter
+  height: 100%;
+  width: 100%;
+  // overflow: hidden;
 }
 
 .bg-green{
   background-color: $bg-color-green;
 }
 
-.heading-main{
+.heading-main, .heading-for-background{
   font-family: 'Hind', 'Open Sans', sans-serif;
   margin-bottom: 1.5em;
-  font-size: 1.5em;
   font-weight: 600;
 }
 
 .heading-main{
   color: $custom-green;
+  font-size: 1.5em;
+
+}
+
+.heading-for-background{
+  color: $color-white;
+  font-size: 1.85em;
+
 }
 
 .subheading-main{
@@ -125,7 +182,9 @@ ul{
   margin-bottom: 1em;
   font-weight: 300;
 }
-
+.link-active{
+  color: $color-secondary!important;
+}
 .link-read_more{
   font-family: 'Nunito', 'Open Sans', sans-serif;
   color: $color-secondary;

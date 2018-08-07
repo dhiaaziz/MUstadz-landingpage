@@ -12,70 +12,75 @@
 }
 
 /* line 16, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_pre.scss */
+.no-margin-top {
+  margin-top: 0 !important;
+}
+
+/* line 20, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_pre.scss */
 .no-padding {
   padding: 0;
 }
 
-/* line 20, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_pre.scss */
+/* line 24, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_pre.scss */
 .margin-side-0p5 {
   margin-left: 0.5em;
   margin-right: 0.5em;
 }
 
-/* line 24, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_pre.scss */
+/* line 28, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_pre.scss */
 .margin-l-0p5 {
   margin-left: 0.5em;
 }
 
-/* line 27, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_pre.scss */
+/* line 31, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_pre.scss */
 .margin-r-0p5 {
   margin-right: 0.5em;
 }
 
-/* line 31, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_pre.scss */
+/* line 35, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_pre.scss */
 .margin-side-1 {
   margin-left: 1em;
   margin-right: 1em;
 }
 
-/* line 35, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_pre.scss */
+/* line 39, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_pre.scss */
 .margin-l-1 {
   margin-left: 1em;
 }
 
-/* line 38, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_pre.scss */
+/* line 42, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_pre.scss */
 .margin-r-1 {
   margin-right: 1em;
 }
 
-/* line 42, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_pre.scss */
+/* line 46, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_pre.scss */
 .margin-side-1p5 {
   margin-left: 1.5em;
   margin-right: 1.5em;
 }
 
-/* line 46, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_pre.scss */
+/* line 50, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_pre.scss */
 .margin-l-1p5 {
   margin-left: 1.5em;
 }
 
-/* line 49, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_pre.scss */
+/* line 53, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_pre.scss */
 .margin-r-1p5 {
   margin-right: 1.5em;
 }
 
-/* line 53, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_pre.scss */
+/* line 57, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_pre.scss */
 .margin-side-2 {
   margin-left: 2em;
   margin-right: 2em;
 }
 
-/* line 57, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_pre.scss */
+/* line 61, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_pre.scss */
 .margin-l-2 {
   margin-left: 2em;
 }
 
-/* line 60, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_pre.scss */
+/* line 64, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_pre.scss */
 .margin-r-2 {
   margin-right: 2em;
 }
@@ -84,22 +89,26 @@
 body, html {
   height: 100%;
   color: #5F5F5F;
-  font-family: arial, sans-serif;
+  font-family: 'Hind', 'Open Sans', sans-serif;
   font-size: 16px;
 }
 
-/* line 9, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
+/* line 10, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
 p {
-  margin: 0.75em 0;
   line-height: 1.5em;
 }
 
-/* line 14, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
+/* line 13, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
+p:last-child {
+  margin: 0;
+}
+
+/* line 18, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
 ul {
   margin: 0;
 }
 
-/* line 17, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
+/* line 21, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
 .container-mustad {
   position: relative;
   width: 100%;
@@ -108,7 +117,7 @@ ul {
   margin-left: auto;
 }
 
-/* line 25, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
+/* line 29, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
 .section-main_landing {
   height: 90%;
   padding-top: 72px;
@@ -117,7 +126,7 @@ ul {
   font-size: 1.75rem;
 }
 
-/* line 34, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
+/* line 38, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
 .section-main_landing .container-mustad {
   height: 100%;
   width: auto;
@@ -130,7 +139,7 @@ ul {
   justify-content: space-between;
 }
 
-/* line 42, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
+/* line 46, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
 .section-main_landing .container-mustad .main-left {
   height: 100%;
   width: auto;
@@ -145,84 +154,145 @@ ul {
   padding-left: 6%;
 }
 
-/* line 50, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
+/* line 54, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
 .section-main_landing .container-mustad .main-right {
   height: 100%;
   flex: 1;
   overflow: hidden;
 }
 
-/* line 57, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
+/* line 61, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
 .section-main_landing .container-mustad .main-right .container-img_phone {
   position: relative;
   max-height: 100%;
   top: 5vh;
 }
 
-/* line 65, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
+/* line 69, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
 .section-main_landing .container-mustad .main-right .container-img_phone img.img_phone {
   position: absolute;
 }
 
-/* line 68, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
+/* line 72, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
 .section-main_landing .container-mustad .main-right .container-img_phone #phone-depan {
   margin-left: 84px;
   max-height: 500px;
 }
 
-/* line 73, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
+/* line 77, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
 .section-main_landing .container-mustad .main-right .container-img_phone #phone-belakang-1 {
   max-height: 450px;
   margin-top: 32px;
 }
 
-/* line 79, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
+/* line 83, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
 .section-main_landing .container-mustad .main-right .container-img_phone #phone-belakang-2 {
   margin-left: 200px;
   max-height: 450px;
   margin-top: 32px;
 }
 
-/* line 90, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
+/* line 95, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
 .section-h_90 {
   height: 90%;
 }
 
-/* line 94, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
-.section-h_auto {
-  height: auto;
-  padding: 3.15em 6%;
+/* line 98, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
+.section-h_40 {
+  height: 40%;
 }
 
-/* line 100, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
+/* line 101, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
+.section-h_auto {
+  height: auto;
+}
+
+/* line 105, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
+.section-h_auto, .section-h_40, .section-h_90 {
+  padding: 2.85em 6%;
+  position: relative;
+}
+
+/* line 109, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
+.section-h_auto.padding-top-header, .section-h_40.padding-top-header, .section-h_90.padding-top-header {
+  padding-top: 72px;
+}
+
+/* line 112, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
+.section-h_auto.background-section, .section-h_40.background-section, .section-h_90.background-section {
+  padding-right: 0;
+  padding-left: 0;
+  padding-bottom: 0;
+}
+
+/* line 117, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
+.section-h_auto.background-section .container-mustad, .section-h_40.background-section .container-mustad, .section-h_90.background-section .container-mustad {
+  padding: 0 9%;
+}
+
+/* line 120, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
+.section-h_auto.background-section .overlay, .section-h_40.background-section .overlay, .section-h_90.background-section .overlay {
+  top: 57%;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  filter: brightness(100%);
+}
+
+/* line 127, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
+.section-h_auto.background-section .overlay h1, .section-h_auto.background-section .overlay h2, .section-h_auto.background-section .overlay h3, .section-h_auto.background-section .overlay h4, .section-h_auto.background-section .overlay h5, .section-h_auto.background-section .overlay h6, .section-h_40.background-section .overlay h1, .section-h_40.background-section .overlay h2, .section-h_40.background-section .overlay h3, .section-h_40.background-section .overlay h4, .section-h_40.background-section .overlay h5, .section-h_40.background-section .overlay h6, .section-h_90.background-section .overlay h1, .section-h_90.background-section .overlay h2, .section-h_90.background-section .overlay h3, .section-h_90.background-section .overlay h4, .section-h_90.background-section .overlay h5, .section-h_90.background-section .overlay h6 {
+  margin: 0;
+}
+
+/* line 135, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
 .bg-main {
   background-color: #ffffff;
 }
 
-/* line 103, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
+/* line 138, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
 .bg-mustadz-secondary {
-  background-color: #F0F0F0;
+  background-color: #F0F0F0 !important;
 }
 
-/* line 107, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
+/* line 142, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
+.bg-image-1 {
+  background-image: url("../img/home/background.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  filter: brightness(40%);
+}
+
+/* line 150, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
+.background {
+  height: 100%;
+  width: 100%;
+}
+
+/* line 157, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
 .bg-green {
   background-color: #78C16B;
 }
 
-/* line 111, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
-.heading-main {
+/* line 161, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
+.heading-main, .heading-for-background {
   font-family: 'Hind', 'Open Sans', sans-serif;
   margin-bottom: 1.5em;
-  font-size: 1.5em;
   font-weight: 600;
 }
 
-/* line 118, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
+/* line 167, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
 .heading-main {
   color: #78C16B;
+  font-size: 1.5em;
 }
 
-/* line 122, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
+/* line 173, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
+.heading-for-background {
+  color: #ffffff;
+  font-size: 1.85em;
+}
+
+/* line 179, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
 .subheading-main {
   font-family: 'Nunito', 'Open Sans', sans-serif;
   font-size: 1.75em;
@@ -230,7 +300,12 @@ ul {
   font-weight: 300;
 }
 
-/* line 129, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
+/* line 185, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
+.link-active {
+  color: #78C16B !important;
+}
+
+/* line 188, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
 .link-read_more {
   font-family: 'Nunito', 'Open Sans', sans-serif;
   color: #78C16B;
@@ -238,7 +313,7 @@ ul {
   text-decoration: none;
 }
 
-/* line 134, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
+/* line 193, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
 .link-read_more::after {
   font-family: FontAwesome;
   content: "\2192";
@@ -249,35 +324,35 @@ ul {
   margin-left: 0.5em;
 }
 
-/* line 143, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
+/* line 202, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
 .link-read_more:hover {
   color: #78C16B;
   text-decoration: none;
 }
 
-/* line 149, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
+/* line 208, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
 .link-fitur {
   position: absolute;
   right: 3%;
   font-size: 1.15em;
 }
 
-/* line 154, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
+/* line 213, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
 .link-googleplay {
   margin: 1em 0 1em -1%;
 }
 
-/* line 158, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
+/* line 217, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
 .image-100w-container {
   width: 100%;
 }
 
-/* line 160, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
+/* line 219, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
 .image-100w-container img {
   max-width: 100%;
 }
 
-/* line 166, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
+/* line 225, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_main.scss */
 img.box-shadow {
   -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   -moz-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
@@ -366,31 +441,33 @@ img.box-shadow {
   -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-  padding: 1.25em 1em;
+  padding: 1.25em 1em 1.85em;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
   background-color: #ffffff;
   text-align: center;
   font-family: 'Hind', 'Open Sans', sans-serif;
 }
 
-/* line 13, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_cards.scss */
+/* line 14, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_cards.scss */
 .card-mustadz .card-img-container {
   max-width: 100;
   margin: 1.25em 0 1.75em;
 }
 
-/* line 16, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_cards.scss */
+/* line 17, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_cards.scss */
 .card-mustadz .card-img-container img {
   max-height: 130px;
 }
 
-/* line 22, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_cards.scss */
+/* line 24, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_cards.scss */
 .heading-card {
   color: #78C16B;
   font-weight: 600;
   font-size: 1.5em;
 }
 
-/* line 28, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_cards.scss */
+/* line 30, /Applications/XAMPP/xamppfiles/htdocs/MUstadz/assets/scss/components/_cards.scss */
 .flex-space-around {
   justify-content: space-between;
 }
